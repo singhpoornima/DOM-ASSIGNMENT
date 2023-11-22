@@ -1,0 +1,29 @@
+
+
+body {
+    background-color: #212121;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+#cont {
+    border: 1px solid #ffffff;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    padding-top: 10%;
+    
+}
+
+#cont:hover {
+    border-color: #0ef50e;
+    color: #0ef50e;
+    
+}
+
+
+

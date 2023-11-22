@@ -1,0 +1,31 @@
+/* universal selector */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #808080;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#double-click {
+    padding: 4px 14px;
+    position: relative;
+    font-size: 18px;
+    border-radius: 4px;
+    left: 85px;
+}
+
+#double-click:hover {
+    background-color: #6cd66c;
+    color: #ffffff;
+    cursor: pointer;
+}
